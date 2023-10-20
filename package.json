@@ -3,7 +3,7 @@
   "module": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon index"
+    "dev": "nodemon index.cjs"
   },
   "devDependencies": {
     "bun-types": "latest",
@@ -14,7 +14,11 @@
   },
   "dependencies": {
     "axios": "^1.5.1",
+    "cookie-parser": "^1.4.6",
     "date-fns": "^2.30.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.3",
+    "request": "^2.88.2"
   }
 }
